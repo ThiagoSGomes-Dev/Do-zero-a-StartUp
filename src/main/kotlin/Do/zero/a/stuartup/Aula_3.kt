@@ -13,5 +13,6 @@ fun main() {
      //println(ageDouble)
 
     val ageText: String = "A idade é ${ageDouble.toString()} anos"
-    println(ageText)
+    println(ageText.lowercase())
+    println(ageText.uppercase())
 }
